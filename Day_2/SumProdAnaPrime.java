@@ -6,7 +6,7 @@ class SumProdAnaPrime {
         int n = s.nextInt();
         int sum = sum(n);
         int product = prod(n);
-        if(isPrime(sum) && isPrime(sum)){
+        if(isPrime(sum) && isPrime(product)){
             System.out.println("Perfect Prime");
         }
         else{
